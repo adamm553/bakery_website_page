@@ -1,0 +1,72 @@
+body {
+    color:rgba(0, 0, 0, 0.667);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-image: url('/static/images/jemmchleb.jpeg');
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 18px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+.container {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+  }
+.container1{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    clear:both;
+  }
+.container div{
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+
+#parent {
+    display: table;
+    width: 100%;
+ }
+#form_login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+ }
+#form-email {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+ 

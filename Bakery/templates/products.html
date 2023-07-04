@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Kup Wypieki!{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/bambo.jpeg' )}}" alt="bambo" style="width:100%">
+            <h1>Chleb Bambo</h1>
+            <p class="price">20 zł/kg</p>
+            <p>Zdrowy, jednorazowy chleb, upieczony w całości z mąki ryzowej</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/inf.jpg' )}}" alt="inf" style="width:100%">
+            <h1>Chleb inflacyjny</h1>
+            <p class="price">1 zł/kg</p>
+            <p>Tani chlebek dla studentów i wyborców PiS-u</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/white.webp' )}}" alt="white" style="width:100%">
+            <h1>Chleb White-Line</h1>
+            <p class="price">60 zł/g</p>
+            <p>Pyszny chleb, idealny na piątkowy wieczór w klubie</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/dildo.jpeg' )}}" alt="dildo" style="width:100%">
+            <h1>Chleb Odlid</h1>
+            <p class="price">6 zł/szt</p>
+            <p>Chleb pszenny idealnie wpasuje się w wasze gusta</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/adidas.jpeg' )}}" alt="adi" style="width:100%">
+            <h1>Chleb Adidas</h1>
+            <p class="price">200 zł/sztuka</p>
+            <p>Stylowy chleb, dla ludzi z klasą</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sheeran.jpg' )}}" alt="shee" style="width:100%">
+            <h1>Bread Sheeran</h1>
+            <p class="price">40 zł/sztuka</p>
+            <p>Chleb dla fanów brytyjskiego piosenkarza</p>
+            <p><button onclick="window.location.href='checkout'">Kup</button></p>
+        </div>
+    </div>
+{% endblock %}

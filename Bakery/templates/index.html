@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Strona Główna{% endblock %}
+{% block content %}
+<style>
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        margin: 0px auto 0px auto;
+        padding:5px;font-size:30px;color:black;
+    }
+    p {
+        text-align: center;
+        margin: 0px auto 0px auto; 
+        padding:5px;font-size:30px;color:black;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        }
+</style>
+<h1>Zawsze świeze bułki, pieczywo i pączki!!!!</h1>
+<image  src="{{ url_for('static', filename='images/logo.png' )}}">
+<h2>Jesteśmy znaną piekarnią działającą na terenie takich miast jak: </h2>
+<p>- Migdałowo</p>
+<p>- Bobrowa Górnicza</p>
+<p>- Letsgo</p>
+{% endblock %}

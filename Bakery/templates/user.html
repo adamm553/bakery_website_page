@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Uzytkownik{% endblock %}
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages: %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+<div id="parent">
+    <form action="#" method="POST" id="form-email">
+        <input type="email" name="email" placeholder="Enter Email" value="{{email if email}}">
+        <input type="submit" value="Zatwierdź">
+    </form>
+</div>
+{% endblock %}

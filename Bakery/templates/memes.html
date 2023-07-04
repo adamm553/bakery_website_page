@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Memy piekarskie{% endblock %}
+{% block content %}
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 5px solid #555;
+        }
+</style>
+<h1>Ulubione memy piekarskie naszego zespołu</h1>
+<div>
+    <img src="{{ url_for('static', filename='images/czosenk.jpeg' )}}" style='height: 50%; width: 50%; object-fit: contain'>
+</div>
+<div>
+    <img src="{{ url_for('static', filename='images/mem1.png' )}}" style='height: 50%; width: 50%; object-fit: contain'>
+</div>
+<div>
+    <img src="{{ url_for('static', filename='images/ea.jpeg' )}}" style='height: 50%; width: 50%; object-fit: contain'>
+</div>
+<div>
+    <img src="{{ url_for('static', filename='images/memix.png' )}}" style='height: 50%; width: 50%; object-fit: contain'>
+</div>
+{% endblock %}
