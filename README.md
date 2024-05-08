@@ -1,4 +1,4 @@
-# Flask Application: User Authentication and Session Management
+# Flask Application: Web Page of the Bakery Shop
 
 This Flask application provides user authentication and session management functionalities. Users can log in, update their email address, view products, proceed to checkout, and log out. The application also includes error handling and a thank you page for completing a purchase.
 
